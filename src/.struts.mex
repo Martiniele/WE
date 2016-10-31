@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="default" location="432,150" size="340,174">
+    <action name="savebackup" location="175,81" size="150,40" />
+  </package>
+</Struts2Diagram>
+
