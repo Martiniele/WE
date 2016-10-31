@@ -24,8 +24,7 @@ public class UploadServlet extends HttpServlet {
     response.setContentType("text/plain");
     //向客户端发送响应正文
     PrintWriter outNet=response.getWriter(); 
-    try{
-      //创建一个基于硬盘的FileItem工厂
+    try{   
       DiskFileItemFactory factory = new DiskFileItemFactory();
       //设置向硬盘写数据时所用的缓冲区的大小，此处为4K
       factory.setSizeThreshold(4*1024); 
